@@ -1,0 +1,51 @@
+*,*::before,*::after {margin:0em;padding:0em;}
+
+body {
+   font-family: sans-serif;
+   text-align: center;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:antiquewhite;
+}
+
+li {
+   list-style: none;
+   color: #262626;
+   font-family: sans-serif;
+   font-weight: bold;
+   margin-top: 5px;
+   display: block;
+}
+
+button {
+   background-color: blueviolet;
+   border:none;
+   padding: 0.5em 1em;
+   color: white;
+   margin-top: 0.6em;
+   font: bold 1.2rem/normal sans-serif;
+   cursor: pointer;
+   margin-inline: 10px;
+   border: 2px solid #fff;
+   float: right;
+}
+
+div input {
+   margin-top:1em;
+   padding: 1em;
+}
+
+.todo_style {
+   background: aliceblue;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.fa-times {
+   font-size: 1.2em;
+   cursor: pointer;
+}
